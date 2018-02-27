@@ -1,0 +1,4 @@
+print("hello lua")
+local CallClass = CS.CallClass --类加载
+local obj = CallClass()		   --创建实例
+obj:test()					   --执行方法
