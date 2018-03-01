@@ -1,0 +1,11 @@
+print("luamain is loader and start")
+
+int_val = 10
+string_val = "lua string"
+bool_val = false
+
+tab_val = { 11,22 }
+
+lua_func = function(x,y)
+	print("x + y = " .. x + y)
+end
